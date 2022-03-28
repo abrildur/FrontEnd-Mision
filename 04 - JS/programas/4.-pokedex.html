@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Abril - Pokedex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="./script.js" type="text/javascript" defer></script>
     <link href="./style.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="uk-position-top" id="navme">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="./4.-pokedex.html">Inicio</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+    <h1>Bienvenido</h1>
+    <h2>Pokedex</h2>
+    <h3>A continuación, escribe en el recuadro inferior el nombre del pokemon que deseas saber más información.</h3>
     <form action="" onsubmit="searchPokemon(event)">
         <input type="text" name="pokemon" autocomplete="off">
+        <button id="enviar">Buscar</button>
     </form>
     <div data-poke-card class="poke-card">
-        <div data-poke-name>Pokedex</div>
+        <div data-poke-name>Info-Pokemon</div>
         <div data-poke-img-container class="img-container">
             <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
         </div>
@@ -24,4 +38,3 @@
     </div>
 </body>
 </html>
-'¡6'
