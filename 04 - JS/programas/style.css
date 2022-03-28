@@ -65,15 +65,25 @@ div#navme{
     margin-bottom: 5% !important;
     margin-left: 90% !important;
     padding: 5px;
+    color: white;
 }
 h1, h2, h3 {
     text-align: center;
-
+    color: white;
 }
 button#enviar{
-    margin-left: 30px;
+    margin-left: 5.5em;
     padding: 10px;
-    background-color: green;
-    color: black;
-    margin-top: -80% !important;
+    background-color: #6E0D25;
+    color: white;
+    margin-top: 1% !important;
+    border-color: #D4357D;
+    display: inline-block;
+}
+html{
+    background-image: url('./pikachu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    color: white;
 }
